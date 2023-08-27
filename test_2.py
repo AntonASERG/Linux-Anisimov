@@ -1,11 +1,9 @@
+import yaml
 from sshcheckers import ssh_checkout_negative, ssh_checkout
 
 
-import yaml
-
 
 with open('config.yaml') as f:
-   # читаем документ YAML
    data = yaml.safe_load(f)
 
 
